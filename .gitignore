@@ -1,2 +1,86 @@
-venv
+# -------------------------
+# Python cache & artifacts
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# -------------------------
+# Virtual environments
+# -------------------------
 .env
+.venv
+env/
+venv/
+ENV/
+.ipynb_checkpoints
+
+# -------------------------
+# IDE/editor settings
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Jupyter Notebook
+# -------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# -------------------------
+# Logs & debug
+# -------------------------
+*.log
+*.out
+*.err
+logs/
+
+# -------------------------
+# Machine Learning / Data
+# -------------------------
+data/
+datasets/
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.model
+*.ckpt
+*.weights
+*.onnx
+
+# -------------------------
+# ML Experiment Tracking
+# -------------------------
+mlruns/          # MLflow
+wandb/           # Weights & Biases
+lightning_logs/  # PyTorch Lightning
+ray_results/     # Ray Tune
+
+# -------------------------
+# OS-specific
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Environment/config
+# -------------------------
+*.env
+*.ini
+*.yaml
+*.yml
+config.json
