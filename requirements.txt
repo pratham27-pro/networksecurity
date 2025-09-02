@@ -1,8 +1,7 @@
-python-dotenv
-pandas
-numpy
-pymongo
-certify
-
-
--e .
+certifi==2025.8.3
+numpy==2.3.2
+pandas==2.3.2
+pymongo==4.14.1
+python-dotenv==1.1.1
+scikit_learn==1.7.1
+setuptools==63.2.0
