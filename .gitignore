@@ -81,6 +81,5 @@ Thumbs.db
 # -------------------------
 *.env
 *.ini
-*.yaml
 *.yml
 config.json
