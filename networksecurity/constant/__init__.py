@@ -4,7 +4,7 @@
 Defining common constant variable for training pipeline
 """
 
-TARGET_COLUMN = "Result"
+TARGET_COLUMN = "Class"
 PIPELINE_NAME = "NetworkSecurity"
 ARTIFACT_DIR = "Artifacts"
 FILE_NAME = "NetworkData.csv"
