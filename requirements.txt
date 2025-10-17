@@ -9,3 +9,7 @@ PyYAML==6.0.2
 scikit_learn==1.7.2
 scipy
 setuptools==65.5.0
+fastapi
+uvicorn
+
+# uvicorn app:app --reload
